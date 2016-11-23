@@ -1,0 +1,90 @@
+﻿* 
+{ 
+margin: 0; 
+padding: 0; 
+} 
+
+body 
+{
+	background-image: url(http://pptforschool.ru/fony/04.jpg); background-repeat: repeat; background-size: 110;
+}
+
+.header 
+{ 
+
+height: 20%; 
+width: 100%; 
+float: left; 
+} 
+
+.menu 
+{ 
+
+height: 60%; 
+width: 60%; 
+float: left; 
+} 
+
+.content 
+{ 
+
+height: 40%; 
+width: 20%; 
+float: right; 
+} 
+
+.logo 
+{ 
+
+height: 50%; 
+width: 20%; 
+float: right; 
+} 
+
+.footer 
+{ 
+float: left; 
+
+height: 32%; 
+width: 100%; 
+}
+
+h1 
+{ 
+font-size: 36px; 
+text-align: center; 
+color: darkgreen; 
+margin-bottom: 40 px; 
+
+} 
+h2 
+{ 
+font-size: 30px; 
+margin-bottom: 30px; 
+color: black; 
+} 
+p 
+{ 
+font-size: 16px; 
+text-indent: 20px; 
+line-height: 20px; 
+} 
+
+p::first-letter 
+{ 
+font-weight: bold; 
+color: maroon; 
+} 
+img 
+{ 
+
+white-space: normal; 
+margin: 10x; 
+border-width: thin; 
+border-style: double; 
+border-color: orange; 
+min-width: 10%; 
+min-height: 80%; 
+max-width: 20%; 
+max-height: 80%; 
+}
